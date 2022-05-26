@@ -1,6 +1,8 @@
 # WordPress_Demo_Application
 This Repo is Prepared to present a demo of Wordpress Application to the the representatives of Allianz Technology.
 
+Please Note that my WordPress Application can be accessed using URL - a71a909dc50f84276a18a23d7c9af67a-858912514.us-east-1.elb.amazonaws.com
+
 Step-01: Create EKS Cluster using eksctl in AWS environment
          
 Prerequisite is to have the AWS CLI installed in your local to configure in which acccount the EKS cluster will be created. Once you have an IAM user and AWS CLI installed in your local, we have to fire a command -:
@@ -72,8 +74,4 @@ Step-02: Creating the Kubernetes Manifests files for our WordPress application.
 The structure of our application is we are running a backend with mysql server and our frontend wordpress application will talk to the mysql backend and the data will be stored in the mysql DB in case we create any data from frontend.
 
 I have written all the kube manifests files for mysql server and wordpress application. You can see all the manifests files by navigating to path WordPress_Demo_Application/Kubemanifests_files/ in master branch.
-The structure of my application is something like -:
-
-                   ![image](https://user-images.githubusercontent.com/26731929/170404378-a01c7b72-2658-45e6-8340-8b895483efe2.png)
-
-The explanation for each of the files will be given when I am attending my interview. For now, our frontend is communicating to the backend and our application is exposed to the outer world using LoadBalancer service. 
+The explanation for each of the files will be given when I will attend my interview. For now, our frontend is communicating to the backend and our application is exposed to the outer world using LoadBalancer service. 

@@ -66,3 +66,9 @@ Verify from your local terminal if everything is working as expected.
 
                      # List Nodes in current kubernetes cluster
                      kubectl get nodes -o wide
+
+Step-02: Creating the Kubernetes Manifests files for our WordPress application.
+
+The structure of our application is we are running a backend with mysql server and our frontend wordpress application will talk to the mysql backend and the data will be stored in the mysql DB in case we create any data from frontend.
+
+I have written all the kube manifests files for mysql server and wordpress application. You can see all the manifests files  

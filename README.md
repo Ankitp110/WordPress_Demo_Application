@@ -71,4 +71,9 @@ Step-02: Creating the Kubernetes Manifests files for our WordPress application.
 
 The structure of our application is we are running a backend with mysql server and our frontend wordpress application will talk to the mysql backend and the data will be stored in the mysql DB in case we create any data from frontend.
 
-I have written all the kube manifests files for mysql server and wordpress application. You can see all the manifests files  
+I have written all the kube manifests files for mysql server and wordpress application. You can see all the manifests files by navigating to path WordPress_Demo_Application/Kubemanifests_files/ in master branch.
+The structure of my application is something like -:
+
+                   ![image](https://user-images.githubusercontent.com/26731929/170404378-a01c7b72-2658-45e6-8340-8b895483efe2.png)
+
+The explanation for each of the files will be given when I am attending my interview. For now, our frontend is communicating to the backend and our application is exposed to the outer world using LoadBalancer service. 
